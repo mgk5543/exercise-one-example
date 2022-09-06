@@ -1,5 +1,8 @@
-body{
+*{
     box-sizing: border-box;
+}
+body, h1, h2, h3, h4{
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -13,5 +16,50 @@ header nav{
 }
 
 header nav a{
-    
+
+}
+
+section.section-element{
+    margin: 0px;
+    padding: 40px;
+}
+
+section.box-model-section{
+    background-color: #CEF1C9;
+}
+
+.interior{
+    border: 10px solid;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px;
+    width: 100%;
+}
+
+.interior h1{
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 45px;
+}
+
+.interior h2{
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.0;
+}
+
+.interior p{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.0;
+}
+
+.box-model-interior{
+    background-color: #9EF491;
+    border-color: green;
+    min-height: 600px;
 }
