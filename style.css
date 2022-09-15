@@ -12,11 +12,27 @@ header{
 }
 
 header nav{
-    
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
 
 header nav a{
+    color: black;
+    font-weight: 700;
+    margin: 0 15px;
+    padding: 5px;
+    text-decoration: none;
+}
 
+header nav a:first-of-type{
+    margin-left: 0;
+}
+header nav a:last-of-type{
+    margin-right: 0;
 }
 
 section.section-element{
@@ -58,7 +74,7 @@ section.box-model-section{
     color: black;
     font-size: 32px;
     font-weight: 400;
-    line-height: 0.2;
+    line-height: 0;
 }
 
 .box-model-interior p{
@@ -123,7 +139,7 @@ section.box-model-section{
 }
 
 .interior-flex--horizontal > div{
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 .interior-flex--vertical > div{
@@ -200,6 +216,43 @@ section.heading-section{
     font-size: 20px;
 }
 
+.simple-javascript-section{
+    background-color: #FAEFD3;
+}
+
+.simple-javascript-section .interior{
+    color: #644904;
+    min-height: 400px;
+}
+
+.counter-button-wrapper{
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.simple-javascript-section h1{
+    margin-bottom: 40px;
+}
+
+.counter-button-wrapper p{
+    color: #504D46;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    margin: 0 40px 0 0;
+    padding-bottom: 0px;
+}
+
+.counter-button-wrapper div button{
+    background-color: #CDC5B1;
+    border-color: #79756C;
+    font-size: 24px;
+    font-weight: 700;
+    height: 80px;
+    width: 270px;
+}
+
 
 footer{
     background-color: #FFC3C3;
@@ -208,5 +261,5 @@ footer{
 
 footer h3{
     color: black;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
