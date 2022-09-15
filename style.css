@@ -195,8 +195,8 @@ section.heading-section{
     color: #6C0468;
     font-weight: 700;
     margin: 0 auto;
-    padding-bottom: 25px;
     max-width: 1200px;
+    padding-bottom: 25px;
 }
 
 .heading-interior h2{
@@ -226,8 +226,8 @@ section.heading-section{
 }
 
 .counter-button-wrapper{
-    display:flex;
     align-items: center;
+    display:flex;
     margin: 0 auto;
 }
 
